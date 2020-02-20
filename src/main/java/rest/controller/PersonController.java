@@ -45,7 +45,7 @@ public class PersonController {
     public void deleteById(@PathVariable Long id) {
         //validation
         service.deleteById(id);
-    }
+}
 
     @RequestMapping(method = RequestMethod.GET, value = "/ping")
     public String ping() {
